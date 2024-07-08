@@ -187,3 +187,76 @@ header h3 {
     margin-top: 48px;
     border: none;
 }
+
+
+/* coming soon  css */
+.coming-soon {
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 100px;
+}
+
+.coming-col {
+    text-align: left;
+}
+
+.coming-col h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.coming-col h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+.coming-col p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.coming-img-style img {
+    padding: 40px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.com-col-3 h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+
+.com-col-3 p {
+    color: rgba(0, 0, 0, 0.662);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
