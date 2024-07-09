@@ -398,7 +398,7 @@ header h3 {
 
 
 /* newslatter  css */
-.newslatter{
+.newslatter {
     height: 482px;
     display: flex;
     align-items: center;
@@ -408,6 +408,7 @@ header h3 {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .newslatter h1 {
     color: rgb(7, 2, 17);
     font-family: Merriweather;
@@ -426,7 +427,7 @@ header h3 {
 }
 
 form input[type="email"] {
-    border-radius:50px 0px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
     background: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
@@ -454,3 +455,53 @@ form input[type="email"] {
 }
 
 /* newslatter  css */
+
+/* Footer css */
+footer {
+    height: 609px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 120px 0px;
+}
+
+.col1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1 p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.col1 div i {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
