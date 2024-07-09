@@ -266,7 +266,6 @@ header h3 {
     width: 1068px;
     height: 260px;
     margin-top: 120px;
-    margin-bottom: 64px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -295,3 +294,100 @@ header h3 {
 }
 
 /* section holidays  css*/
+
+/* offer section css here */
+.offer {
+    height: 662.07px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.off-container {}
+
+.off-img-c-1 {}
+
+.off-img-c-1-img1 {
+    position: absolute;
+    right: 250px;
+    top: 130px;
+    z-index: 1;
+}
+
+.off-img-c-1-img2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 400px;
+}
+
+.off-img-c-3 {
+    background-color: red;
+    height: 229px;
+    border-radius: 5px;
+}
+
+.off-img-c-3 img {
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+    width: 600px;
+}
+
+/* offer section css here Ends */
+
+/* Portfolio css start */
+.portfolio {
+    margin-top: 120px;
+}
+
+.portfolio-content {}
+
+.portfolio-content h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.portfolio-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    text-align: left;
+}
+
+.portfolio-gird {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+}
+
+.p-gird-item {
+    width: 424px;
+    height: 450px;
+}
+.p-gird-item img{
+    width: 100%;
+}
+/* Portfolio css end */
